@@ -1,0 +1,40 @@
+body { 
+    background-image: url('StreetGIFevensmaller.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-color: black;
+}
+
+h1 {
+    color: gray;
+	font-family: ThinFine;
+	font-size: 50px;
+	text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+	    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+	    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	    text-decoration: none;
+		text-shadow: 0 0 12px #fdff00;
+}
+
+
+/* selected link */
+a:active {
+	    text-decoration: none;
+		text-shadow: 0 0 12px #f00;
+		
+}
